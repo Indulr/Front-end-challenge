@@ -1,0 +1,91 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width:360px;
+
+
+}
+
+  nav{
+    height: 80px;
+    background-image: url(../images/Appbar.png);
+    background-size: contain;}
+
+.map{
+
+  background-image: url(../images/Slice.png);
+  background-size: cover;
+  height:300px;
+  width: 100%;
+  margin-bottom: 8px;
+
+}
+
+
+  h1{
+    font-size: 25px;
+    color: #0086F1;
+    margin-left: 16px;
+    margin-top: 16px;
+
+
+  }
+
+h2{
+  font-size: 16px;
+  color: #39AA06;
+
+}
+
+h3{
+  font-size: 13px;
+  color: #9B9B9B;
+  padding-left: 16px;
+  line-height: 14px;
+  margin-bottom: 15px;
+
+}
+
+.bar{
+ font-size: 17px;
+ color: #0D3B70;
+ padding-left: 16px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ width:100%;
+ background-color: #C2C2C2;
+ font-weight:bold;
+
+}
+
+.content{
+  background-color: white;
+  width:100%;
+  height: 64px;
+
+}
+
+.divider{
+  height: 1px;
+  width: 100%;
+  background-color: lightgrey;
+
+}
+
+.businfo, .time{
+  display: inline-block;
+
+}
+
+.time{
+  float: right;
+  margin: 16px 16px;
+}
+
+.content:hover {
+  background-color: lightgrey;
+}
