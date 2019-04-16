@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto'; sans-serif;
 }
 .container{
   width:360px;
+  margin:auto;
 
 
 }
@@ -23,7 +24,7 @@ body{
     }
 
 
-.map{
+figure{
 
   background-image: url(../images/Slice.png);
   background-size: cover;
@@ -46,6 +47,8 @@ body{
 h2{
   font-size: 16px;
   color: #39AA06;
+  margin-bottom:3px;
+
 
 }
 
@@ -54,7 +57,22 @@ h3{
   color: #9B9B9B;
   padding-left: 16px;
   line-height: 14px;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
+
+
+}
+
+h4{
+  font-size: 10px;
+  color: #9B9B9B;
+  line-height: 9px;
+  font-weight: bold;
+  background-color:lightyellow;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: .1px solid lightgrey;
+
 
 }
 
@@ -85,10 +103,11 @@ h3{
 
 }
 
-.businfo, .time{
+.businfo, .time, .frequency {
   display: inline-block;
 
 }
+
 
 .time{
   float: right;
@@ -111,6 +130,14 @@ h3{
 
 .menu{
 
-margin: 16px 16px;
+margin:16px 16px;
 
+}
+
+.new{
+  margin-bottom:
+}
+.out{
+  color: lightgrey;
+  font-size: 13px;
 }
